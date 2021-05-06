@@ -8,3 +8,7 @@ The solution can be found insde the **src** folder. **ds-server** must be execut
 
 ### Documentation:
 [DS-SIM User Guide](https://github.com/CazDev/First-Best-Fit/blob/master/ds-sim_user-guide.pdf) 
+* Document provided for us explaining how ds-sim works.
+
+[First Best Fit Scheduling Algorithm Documentation](https://docs.google.com/document/d/1kHrxT7rAhPvqmFNkg8pj5WfXkosZcRVqPDlhcM4_vsc/edit?usp=sharing)
+* More in-depth documentation for this project.
