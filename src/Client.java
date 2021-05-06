@@ -126,6 +126,21 @@ public class Client {
 		return lrgIndex;
 	}
 
+	//
+	// Most basic implementation of first fit
+	//
+	public String firstFit(ArrayList<Server> servers, ArrayList<Job> job){
+
+		// This method will always pick the first server
+		// Without checking any job requirements
+		// Or any server resources
+
+		String ServerInfo = "";
+		ServerInfo = servers.get(0).getType() + " " + servers.get(0).getID();
+		// Scheduling command for first server
+		return "SCHD " + job.get(0).getJobID() + " " + ServerInfo;
+	}
+
 
 	/* 
 		We have chosen to comment out the console printing portions of
